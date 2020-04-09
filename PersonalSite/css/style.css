@@ -1,0 +1,98 @@
+/*----------------------General-------------------------------------------------*/
+body {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  background-color: #32afa9;
+}
+
+p {
+  margin-top: 0;
+  font-size: 1.875rem;
+  color: #d1f5d3;
+}
+
+hr {
+  border: 2px solid #f0cf85;
+}
+
+/*----------------------Classes-------------------------------------------------*/
+.titles {
+  font-size: 3rem;
+  color: #f4eec7;
+}
+
+.sub-titles {
+  font-size: 2rem;
+  color: #f4eec7;
+}
+
+.topContainer {
+  padding-top: 120px;
+  background-color: #32afa9;
+  position: relative;
+}
+
+.topContainer p {
+  color: #d1f5d3;
+}
+
+.topContainer p span {
+  text-decoration: underline #f0cf85;
+  color: #e7f0c3;
+}
+
+.topContainer h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Courgette', cursive;
+  font-size: 3.75rem;
+  color: #d1f5d3;
+}
+
+.middleContainer {}
+
+.skill-row img {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+}
+
+.bars img{
+  width: 200px;
+  height: 5px;
+}
+
+.bottomContainer {}
+
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 0px;
+  height: 200px;
+  width: 300px;
+}
+
+.bottomCloud {
+  position: absolute;
+  bottom: 300px;
+  left: 460px;
+}
+
+.btn {
+  font-size: 1.25rem;
+}
+
+/*----------------------IDs amd specifics-------------------------------------------------*/
+#avatar {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 15px;
+}
+
+#trademark {
+  font-size: 1rem;
+}
